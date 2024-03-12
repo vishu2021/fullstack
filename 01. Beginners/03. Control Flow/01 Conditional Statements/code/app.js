@@ -1,8 +1,8 @@
-// if (condition) {...}
-// else if (condition_2) {...}
-// else {...}
-// ------------------------
-
+/* Comments Start Here
+!  if (condition) {...}
+^  else if (condition_2) {...}
+&  else {...} 
+Comments End Here */
 let a = 10,
   b = 20;
 if (a > b) {

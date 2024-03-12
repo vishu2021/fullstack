@@ -1,7 +1,9 @@
-// join - creates string from array
-// reverse - reverse an array
-// slice - copy portion of an array
-// sort - sorts an array
+/* Comments Start Here 
+! join - creates string from array
+^ reverse - reverse an array
+* slice - copy portion of an array
+& sort - sorts an array
+ Comments End Here */
 
 let pl = ["JavaScript", "Golang", "Python", "php"];
 let numbers = [3, 5, 2, 4, 1];

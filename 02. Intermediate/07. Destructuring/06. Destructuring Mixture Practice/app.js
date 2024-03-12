@@ -31,7 +31,7 @@ const data = {
   },
 };
 
-// Extracting data using object destructuring
+//! Extracting data using object destructuring
 const {
   user: {
     name,
@@ -53,7 +53,7 @@ const {
   },
 } = data;
 
-// Logging the extracted data using template literals
+//! Logging the extracted data using template literals
 console.log(`Name: ${name}`);
 console.log(`Age: ${age}`);
 console.log(`Address: ${city}, ${country}`);

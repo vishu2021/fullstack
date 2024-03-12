@@ -1,9 +1,10 @@
-// push() -> Add item at the end of the array
-// pop() -> Remove item at the end of the array
-// shift() -> Remove from the start
-// unshift() -> Add to start
-// concat() -> combining arrays
-
+/* Comments Start Here 
+! push() -> Add item at the end of the array
+* pop() -> Remove item at the end of the array
+^ shift() -> Remove from the start
+? unshift() -> Add to start
+& concat() -> combining arrays
+Comments End Here   */
 const fruits = [
   "apples",
   "pomegranate",
@@ -18,10 +19,11 @@ fruits.push("banana");
 fruits.pop();
 fruits.shift();
 fruits.unshift("orange");
-
-// CONCAT
-// const fruits = ["apples", "pomegranate", "mango"];
-// let moreFruits = ["strawberries", "pineapple", "grapefruit"];
-// let totalFruits = fruits.concat(moreFruits);
+/* Comments Start Here
+! CONCAT
+^ const fruits = ["apples", "pomegranate", "mango"];
+^ let moreFruits = ["strawberries", "pineapple", "grapefruit"];
+^ let totalFruits = fruits.concat(moreFruits);
+Comments End Here   */
 
 console.log(fruits);

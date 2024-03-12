@@ -1,10 +1,9 @@
-// In object destructuring order doesn't matter but the name does matter
+//? In object destructuring order doesn't matter but the name does matter
 
-// --------------------------
-// Extracting a property
-const student = { name: "Krishna", position: "First", rollno: "27" };
-const { name, position, rollno } = student;
-console.log(name); // Krishna
+//! Extracting a property
+const student = { myName: "Krishna", position: "First", rollNumber: "27" };
+const { myName, position, rollNumber } = student;
+console.log(myName); // Krishna
 console.log(position); // First
-console.log(rollno); // 27
+console.log(rollNumber); // 27
 // --------------------------
