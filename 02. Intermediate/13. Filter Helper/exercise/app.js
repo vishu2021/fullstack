@@ -1,6 +1,7 @@
-// 1. Iterate over "ages" array
-// 2. Print only adults, those whos age is greater then 18
-
+/*
+ * 1. Iterate over "ages" array
+ * 2. Print only adults, those whose age is greater then 18
+ */
 const ages = [32, 33, 16, 40];
 
 function checkAdult(age) {
@@ -9,12 +10,10 @@ function checkAdult(age) {
 
 const res = ages.filter(checkAdult);
 console.log(res);
-// ---------------------
-
-// ---------------------
-// 1. Iterate Over "words" array
-// 2. Print only those words which length is greater then 6
-
+/*
+ * 1. Iterate Over "words" array
+ * 2. Print only those words which length is greater then 6
+ */
 const words = [
   "spray",
   "limit",

@@ -1,16 +1,16 @@
-// https://www.w3schools.com/jsref/obj_mouseevent.asp
-
-// 1. click
-// 2. contextmenu
-// 3. dblclick
-// 4. mousedown
-// 5. mouseenter
-// 6. mouseleave
-// 7. mousemove
-// 8. mouseout
-// 9. mouseover
-// 10. mouseup
-
+/*
+& https://www.w3schools.com/jsref/obj_mouseevent.asp 
+? 1. click
+? 2. contextmenu
+? 3. dblclick
+? 4. mousedown
+? 5. mouseenter
+? 6. mouseleave
+? 7. mousemove
+? 8. mouseout
+? 9. mouseover
+? 10. mouseup
+*/
 let one = document.querySelector(".click");
 let two = document.querySelector(".contextmenu");
 let three = document.querySelector(".dblclick");
