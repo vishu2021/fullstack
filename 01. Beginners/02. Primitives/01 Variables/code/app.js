@@ -1,7 +1,7 @@
 // (reserved keyword): (variable name): (type of value)
 
 let variable; // undefined
-let name = "Jai Shri Radhe Krishna";
-console.log(name);
+let yourName = "Jai Shri Radhe Krishna";
+console.log(yourName);
 const channelName = "Radhe Academy";
 console.log(channelName);

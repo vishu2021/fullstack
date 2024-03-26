@@ -22,7 +22,7 @@ Comments End Here   */
 console.log(!a); // false
 console.log(!b); // true
 let password = "Krishna-Radhe";
-if (password.length >= 8 && password.includes("web")) {
+if (password.length >= 8 && password.includes("Radhe")) {
   console.log("VALID PASSWORD");
 } else {
   console.log("Invalid password");

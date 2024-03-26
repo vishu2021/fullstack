@@ -4,14 +4,14 @@
 ^ const words = ["hello", "world", "welcome"];
 ^ ['string', 123, true, []]
 Comments End Here */
-// empty array
+//! empty array
 const myList = [];
-// array of numbers
+//! array of numbers
 const numberArray = [2, 4, 6, 8];
-// array of strings
+//! array of strings
 const stringArray = ["eat", "work", "sleep"];
-// array with mixed data types
-// const newData = ["work", "exercise", 1, true];
+//! array with mixed data types
+//! const newData = ["work", "exercise", 1, true];
 const newData = [
   { task1: "exercise" },
   [1, 2, 3],
@@ -19,10 +19,9 @@ const newData = [
     console.log("hello");
   },
 ];
-// -----------------------------------
-// ACCESSING ITEMS
+//! ACCESSING ITEMS
 const myArray = ["h", "e", "l", "l", "o"];
-// first element
+//! First element
 console.log(myArray[0]); // "h"
-// second element
+//! Second element
 console.log(myArray[1]); // "e"

@@ -1,4 +1,4 @@
-// ---------- CONSOLE ----------
+//! ---------- CONSOLE ----------
 console.log("Hello World");
 // log
 // clg

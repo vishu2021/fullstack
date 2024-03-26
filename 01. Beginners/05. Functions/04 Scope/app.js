@@ -1,19 +1,19 @@
 //? Global Scope
 //? Local Scope
 
-let textMessage = "hi"; // Global Scope
+let textMessage = "hi"; //! Global Scope
 
 function showMessage() {
-  let textMessage = "hi"; // Local Scope
-  console.log(textMessage); // Access Local Scope
+  let textMessage = "hi"; //! Local Scope
+  console.log(textMessage); //! Access Local Scope
 }
 
 for (let i = 0; i < 5; i++) {
-  console.log(i); // Local Scope
+  console.log(i); //! Local Scope
 }
 
-console.log(i); // Global Scope
-console.log(textMessage); // Access Global Scope
+console.log(i); //! Global Scope
+console.log(textMessage); //! Access Global Scope
 /* Comments Start Here 
 ? Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript.
 ? The two types of scope are local and global
